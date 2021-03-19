@@ -15,7 +15,7 @@ body {
 nav {
   height: 50px;
   width: 50px;
-  background-color: black;
+  background-color: rgb(29, 29, 49);
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@ nav {
   display: flex;
 }
 .fas {
-  color: white;
+  color: rgb(240, 240, 102);
   font-size: 1.6rem;
 }
 
