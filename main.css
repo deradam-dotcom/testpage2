@@ -9,8 +9,11 @@ body {
   background-color: rgb(240, 240, 102);
 }
 .nav {
+  position: relative;
+  top: 35px;
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 nav {
   height: 50px;
@@ -49,7 +52,7 @@ nav {
 
 @media only screen and (max-width: 400px) {
   nav {
-    margin: 7px;
+    margin-right: 10px;
     position: absolute;
     background-color: rgb(240, 240, 102);
   }
